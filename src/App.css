@@ -4,19 +4,21 @@
 /* Variable CSS */
 :root {
   --header-height: 3rem;
-  
+
   /* Colors */
   /* Color mode HSL (hue, Saturation, Lighthouse) */
   --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
-  --tilte-color-hover: hsl(var(--hue), var(--sat), 0%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --text-color-hover: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
 
   /* Font & Typography */
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
+
+  /* 0.5rem = 8px | 1rem = 16px */
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
@@ -29,7 +31,7 @@
   /* Font Weight */
   --font-normal: 400;
   --font-medium: 500;
-  --font-semibold: 600;
+  --font-semi-bold: 600;
 
   /* Margins Bottom */
   --mb-0-25: 0.25rem;
@@ -84,7 +86,9 @@ body {
   color: var(--text-color);
 }
 
-h1,h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   /* check this */
   font-weight: var(--font-semi-bold);
@@ -111,12 +115,12 @@ img {
 
 /* Reusable CSS clases */
 .section {
-  padding: 4rem 0 2rem;
+  padding: 6rem 0 2rem;
 }
 
 .section-title {
   font-size: var(--h1-font-size);
-  margin-bottom: var(--title-color);
+  color: var(--title-color);
 }
 
 .section-subtitle {
@@ -135,9 +139,6 @@ img {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1.5rem;
 }
 
 .grid {
@@ -153,7 +154,6 @@ img {
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
-  font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
 
@@ -161,7 +161,7 @@ img {
   background-color: var(--title-color-dark);
 }
 
-.button-icon {
+.button__icon {
   margin-left: var(--mb-0-5);
 }
 
@@ -174,60 +174,21 @@ img {
 /* Breakpoints */
 /* For Large Devices */
 @media screen and (max-width: 992px) {
-}
-    
-/* For Medium Devices */
-@media screen and (max-width: 768px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
-@media screen and (max-width: 576px) {
-}
+/* For Medium Devices */
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
 
 /* For Small Devices */
 @media screen and (max-width: 350px) {
-
-}
-
-
-
-
-
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
   }
 }
