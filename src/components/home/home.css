@@ -1,4 +1,4 @@
-.home_container {
+.home__container {
     row-gap: 7rem;
 }
 
@@ -24,7 +24,7 @@
     color: var(--title-color-dark);
 }
 
-.home__title{
+.home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
     white-space: nowrap;
@@ -73,7 +73,7 @@
 }
 
 .home__img {
-    background: url(../../assets//nikhil_miranda_front_profile_nature_bg_greyscale.png);
+    background: url(../../assets/images/nikhil_miranda_front_profile_nature_bg_greyscale.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -171,11 +171,11 @@
     .home__scroll {
         margin-left: 7.5rem;
     }
-  }
-  
-  /* For Medium Devices */
-  @media screen and (max-width: 768px) {
-    .home__content{
+}
+
+/* For Medium Devices */
+@media screen and (max-width: 768px) {
+    .home__content {
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
     }
@@ -199,10 +199,10 @@
         display: none;
 
     }
-  }
-  
-  /* For Small Devices */
-  @media screen and (max-width: 350px) {
+}
+
+/* For Small Devices */
+@media screen and (max-width: 350px) {
     .home__img {
         width: 180px;
         height: 180px;
@@ -212,4 +212,4 @@
         width: 22px;
         height: 22px;
     }
-  }
+}
