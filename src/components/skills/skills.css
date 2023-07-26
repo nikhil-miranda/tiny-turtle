@@ -40,6 +40,10 @@
     color: var(--title-color);
 }
 
+.bx-badge-check {
+    padding-top: 0.1rem;
+}
+
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -48,4 +52,36 @@
 
 .skills__level {
     font-size: var(--tiny-font-size);
+}
+
+/* Breakpoints */
+/* For Large Devices */
+@media screen and (max-width: 992px) {
+    .skills__container {
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+}
+
+/* For Medium Devices */
+@media screen and (max-width: 576px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    .skills__content {
+        padding: 1.5rem;
+    }
+}
+
+/* For Small Devices */
+@media screen and (max-width: 350px) {
+    .skills__box {
+        column-gap: 1.25rem;
+    }
+
+    .skills__name {
+        font-size: var(--small-font-size);
+    }
 }
