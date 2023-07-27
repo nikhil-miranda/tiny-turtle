@@ -14,6 +14,7 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --modal-color: rgb(239, 239, 239);
 
   /* Font & Typography */
   --body-font: "Poppins", sans-serif;
@@ -197,7 +198,7 @@ img {
 
   .section {
     padding: 2rem 0 4rem;
-  } 
+  }
 
   .section__subtitle {
     margin-bottom: var(--mb-3);
@@ -207,7 +208,7 @@ img {
 @media screen and (max-width: 576px) {}
 
 /* For Small Devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
   :root {
     --big-font-size: 2.25rem;
   }

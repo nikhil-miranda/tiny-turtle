@@ -112,7 +112,7 @@
 }
 
 /* Breakpoint: For Small Devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .nav__menu {
         padding: 2rem 0.25rem 4rem;
     }

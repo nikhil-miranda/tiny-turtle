@@ -76,7 +76,7 @@
 }
 
 /* For Small Devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .skills__box {
         column-gap: 1.25rem;
     }
