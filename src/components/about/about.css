@@ -5,7 +5,7 @@
 }
 
 .about__img {
-    width: 350px;
+    width: 370px;
     border-radius: 1.5rem;
     justify-self: center;
 }
@@ -86,7 +86,7 @@
 }
 
 /* For Small Devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .about__info {
         grid-template-columns: repeat(2, 1fr);
     }
