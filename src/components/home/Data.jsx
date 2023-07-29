@@ -55,7 +55,7 @@ const Data = () => {
                 </svg>
             </h1>
 
-            <h3 className="home__subtitle"></h3>
+            {/* <h3 className="home__subtitle">Backend Engineer</h3> */}
             <p className="home__description">
                 I am a Backend Engineer. <br />
                 I code beautifully simple things. <br />
