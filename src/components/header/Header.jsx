@@ -8,15 +8,10 @@ const Header = () => {
     return (
         <header className='header'>
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">Nikhil Miranda</a>
+                <a href="#home" className="nav__logo">Nikhil Miranda</a>
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
-                        <li className="nav__item">
-                            <a href="#home" className="nav__link active-link">
-                                <i className="uil uil-estate nav__icon"></i> Home
-                            </a>
-                        </li>
                         <li className="nav__item">
                             <a href="#about" className="nav__link">
                                 <i className="uil uil-user nav__icon"></i> About
@@ -33,8 +28,18 @@ const Header = () => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#portfolio" className="nav__link">
-                                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                            <a href="#qualifications" className="nav__link">
+                                <i className="uil uil-scenery nav__icon"></i> Qualifications
+                            </a>
+                        </li>
+                        <li className="nav__item">
+                            <a href="#recomendations" className="nav__link">
+                                <i className="uil uil-scenery nav__icon"></i> Recomendations
+                            </a>
+                        </li>
+                        <li className="nav__item">
+                            <a href="#Blog" className="nav__link">
+                                <i className="uil uil-scenery nav__icon"></i> Blog
                             </a>
                         </li>
                         <li className="nav__item">

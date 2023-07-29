@@ -19,7 +19,7 @@ const Achievements = () => {
                 <div className="achievements__content">
                     <div>
                         <i class="uil uil-trophy achievements__icon"></i>
-                        <h3 className="achievements__title">
+                        <h3 className="achievements__title" onClick={() => toggleTab(1)}>
                             Best Performer <br /> Award - Unbxd
                         </h3>
                     </div>
@@ -48,7 +48,7 @@ const Achievements = () => {
                 <div className="achievements__content">
                     <div>
                         <i class="uil uil-cloud-check achievements__icon"></i>
-                        <h3 className="achievements__title">
+                        <h3 className="achievements__title" onClick={() => toggleTab(2)}>
                             Mulesoft DTO <br />Hackathon Winner
                         </h3>
                     </div>
@@ -92,7 +92,7 @@ const Achievements = () => {
                 <div className="achievements__content">
                     <div>
                         <i class="uil uil-arrow achievements__icon"></i>
-                        <h3 className="achievements__title">
+                        <h3 className="achievements__title" onClick={() => toggleTab(3)}>
                             TheMathCompany <br /> Hackathon Winner
                         </h3>
                     </div>
