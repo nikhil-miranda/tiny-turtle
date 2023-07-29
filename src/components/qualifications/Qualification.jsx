@@ -7,7 +7,6 @@ const Qualification = () => {
     const toggleTab = (index) => {
         setToggleState(index);
     };
-
     return (
         <section className="qualification section" id='qualifications'>
             <h2 className="section__title">Qualifications</h2>
@@ -93,6 +92,11 @@ const Qualification = () => {
 
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
                             <div>
                                 <h3 className="qualification__title">
                                     Senior Software Engineer
@@ -105,19 +109,9 @@ const Qualification = () => {
                                     2022 - Present
                                 </div>
                             </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
                         </div>
 
                         <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
                             <div>
                                 <h3 className="qualification__title">
                                     Software Development Engineer
@@ -130,24 +124,29 @@ const Qualification = () => {
                                     2020 - 2022
                                 </div>
                             </div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
                         </div>
 
                         <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                            </div>
                             <div>
                                 <h3 className="qualification__title">
-                                    Research Fellowship
+                                Research Fellowship
                                 </h3>
                                 <span className="qualification__subtitle">
-                                    Samsung Research Institute, Bangalore
+                                Samsung Research Institute, Bangalore
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
                                     2018 - 2019
                                 </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
                             </div>
                         </div>
                     </div>

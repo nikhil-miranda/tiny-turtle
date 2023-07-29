@@ -55,8 +55,14 @@ const Data = () => {
                 </svg>
             </h1>
 
-            <h3 className="home__subtitle">Backend Engineer</h3>
-            <p className="home__description">I'm an engineer based in Bangalore, India. I'm passionate and dedicated to my work.</p>
+            <h3 className="home__subtitle"></h3>
+            <p className="home__description">
+                I am a Backend Engineer. <br />
+                I code beautifully simple things. <br />
+                I craft scalable & maintainable software. <br />
+                I love what I do.
+
+            </p>
 
             <a href="#contact" className="button button--flex">
                 Say Hello
