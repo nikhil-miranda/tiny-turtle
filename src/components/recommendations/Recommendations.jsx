@@ -33,7 +33,7 @@ const Recommendations = () => {
                         "spaceBetween": 48
                     }
                 }}
-                // modules={[Pagination]}
+            // modules={[Pagination]}
             >
                 {Data.map(({ id, image, title, description }) => {
                     return (
