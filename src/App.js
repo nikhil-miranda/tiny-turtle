@@ -6,7 +6,7 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Achievements from './components/achievements/Achievements';
 import Qualifications from './components/qualifications/Qualification';
-import Recommendations from './components/recommendations/Recommendations';
+// import Recommendations from './components/recommendations/Recommendations';
 import Contact from './components/contact/Contact';
 
 const App = () => {

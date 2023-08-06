@@ -10,15 +10,12 @@ const Contact = () => {
             <div className="contact__container container grid">
                 <div className="contact__content">
                     <h3 className="contact__title">Talk to me</h3>
-
                     <div className="contact__info">
-
-
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">E-Mail</h3>
                             <span className="contact__card-data">nikhil.miranda@gmail.com</span>
-                            <a href="" className="contact__button">
+                            <a href='#contact' className="contact__button">
                                 Write to me
                                 <i className="bx bx-right-arrow-alt contact__button"></i>
                             </a>
@@ -28,7 +25,7 @@ const Contact = () => {
                             <i className="bx bx-phone contact__card-icon"></i>
                             <h3 className="contact__card-title">Contact Number</h3>
                             <span className="contact__card-data">(+91) 897 172 3022</span>
-                            <a href="" className="contact__button">
+                            <a href='#contact' className="contact__button">
                                 Talk to me
                                 <i className="bx bx-right-arrow-alt contact__button"></i>
                             </a>
