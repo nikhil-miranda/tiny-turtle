@@ -57,11 +57,10 @@ const Data = () => {
 
             {/* <h3 className="home__subtitle">Backend Engineer</h3> */}
             <p className="home__description">
-                I am a Backend Engineer. <br />
+                I am a passionate Backend Engineer. <br />
                 I code beautifully simple things. <br />
                 I craft scalable & maintainable software. <br />
-                I love what I do.
-
+                I love solving real world problems. <br />
             </p>
 
             <a href="#contact" className="button button--flex">
