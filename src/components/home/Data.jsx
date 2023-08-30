@@ -57,10 +57,7 @@ const Data = () => {
 
             {/* <h3 className="home__subtitle">Backend Engineer</h3> */}
             <p className="home__description">
-                I am a passionate Backend Engineer. <br />
-                I code beautifully simple things. <br />
-                I craft scalable & maintainable software. <br />
-                I love solving real world problems. <br />
+                I am a Backend Engineer. I love to code elegant solutions which are capable of tackling complexity at scale.
             </p>
 
             <a href="#contact" className="button button--flex">
