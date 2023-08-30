@@ -16,7 +16,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        Backend Engineer, I have created multiple apps using Python (FastAPI, Django) and Java(SpringBoot, Guice). I have 3.5 years of experience and many clients are happy with my work.
+                        Remember that kid who would dismantle their toys just to figure out why they work the way they do? Yes, that was me. Nothing much has changed since then, you'll still find me observing how people meet their daily needs, analysing disruptive technologies or simply reading books, all of this in a bid to create ventures to make a positive impact on people, organisations and the society at large.
                     </p>
 
                     <a download="" href={cv} className="button button--flex">
