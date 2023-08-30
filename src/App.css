@@ -156,10 +156,14 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
 }
 
 .button:hover {
   background-color: var(--title-color-dark);
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
 }
 
 .button__icon {

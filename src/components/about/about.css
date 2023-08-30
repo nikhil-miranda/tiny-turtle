@@ -5,15 +5,29 @@
 }
 
 .about__img {
-    width: 370px;
+    width: 400px;
     border-radius: 1.5rem;
     justify-self: center;
+    box-shadow: 0 0rem 0rem rgba(0, 0, 0.25, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.about__img:hover {
+    box-shadow: 0 1rem 1.5rem rgba(0, 0.25, 1, 0.25);
+    transition: all 0.3s ease-in-out;
 }
 
 .about__info {
-    grid-template-columns: repeat(2, 140px);
+    grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
+    justify-content: center;
+    padding: 0 2rem 0 0;
+}
+
+.about__data {
+    text-align: center;
+    justify-content: center;
 }
 
 .about__box {
@@ -40,8 +54,9 @@
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
+    padding: 0 1rem 0 0;
     margin-bottom: var(--mb-2-5);
+    text-align: center;
 }
 
 /* Breakpoints */
@@ -62,22 +77,25 @@
 
     .about__data {
         text-align: center;
+        justify-content: center;
     }
 
     .about__info {
         justify-content: center;
+        padding: 0 3rem 0 3rem;
     }
 
     .about__description {
-        padding: 0 5rem;
-        margin-bottom: 2rem;
+        padding: 0 3rem;
+        margin-bottom: 2rem; 
     }
 }
 
 /* For Medium Devices */
 @media screen and (max-width: 576px) {
     .about__info {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 3rem 0 3rem;
     }
 
     .about__description {
@@ -88,6 +106,7 @@
 /* For Small Devices */
 @media screen and (max-width: 400px) {
     .about__info {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 3rem 0 3rem;
     }
 }

@@ -1,6 +1,6 @@
 .contact__container {
     grid-template-columns: repeat(2, max-content);
-    justify-content: center;
+    justify-items: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
 }
@@ -137,10 +137,11 @@
         grid-template-columns: 1fr;
     }
 
-    .contact__form {
+    .contact__info {
         width: 100%;
     }
 }
 
 /* For Small Devices */
-@media screen and (max-width: 400px) {}
+@media screen and (max-width: 400px) {
+}
