@@ -32,7 +32,7 @@ const Header = () => {
                                 <i className="uil uil-scenery nav__icon"></i> Qualifications
                             </a>
                         </li>
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="#recommendations" className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i> Recommendations
                             </a>
@@ -41,7 +41,7 @@ const Header = () => {
                             <a href="#Blog" className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i> Blog
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav__item">
                             <a href="#contact" className="nav__link">
                                 <i className="uil uil-message nav__icon"></i> Contact
