@@ -87,6 +87,14 @@
     margin-bottom: var(--mb-0-25);
 }
 
+.qualification__title__dark {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-0-25);
+    color: var(--title-color-dark);
+}
+
 .qualification__subtitle {
     font-size: var(--small-font-size);
     text-align: center;
@@ -110,6 +118,15 @@
     width: 13px;
     height: 13px;
     background-color: var(--text-color);
+    border-radius: 50%;
+    margin-top: 0.4rem;
+}
+
+.qualification__rounder__dark {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #000000;
     border-radius: 50%;
     margin-top: 0.4rem;
 }
