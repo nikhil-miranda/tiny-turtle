@@ -12,7 +12,7 @@ const Social = () => {
                 className="home__social-icon" target="_blank" rel="noreferrer">
                 <i class="uil uil-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/nikhil-miranda-04360441/"
+            <a href="https://www.linkedin.com/in/nikhilmiranda/"
                 className="home__social-icon" target="_blank" rel="noreferrer">
                 <i class="uil uil-linkedin"></i>
             </a>
