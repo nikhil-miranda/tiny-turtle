@@ -1,29 +1,36 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import './App.css';
 import Header from './components/header/Header';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Achievements from './components/achievements/Achievements';
-import Qualifications from './components/qualifications/Qualification';
-// import Recommendations from './components/recommendations/Recommendations';
-import Contact from './components/contact/Contact';
+import LoadingSpinner from './components/common/LoadingSpinner';
+import ScrollToTop from './components/scrolltotop/ScrollToTop';
+import DarkMode from './components/darkmode/DarkMode';
+
+// Lazy load components for better performance
+const Home = lazy(() => import('./components/home/Home'));
+const About = lazy(() => import('./components/about/About'));
+const Skills = lazy(() => import('./components/skills/Skills'));
+const Achievements = lazy(() => import('./components/achievements/Achievements'));
+const Qualifications = lazy(() => import('./components/qualifications/Qualification'));
+const Contact = lazy(() => import('./components/contact/Contact'));
 
 const App = () => {
   return (
     <>
       <Header />
+      <DarkMode />
 
       <main className='main'>
-        <Home />
-        <About />
-        <Skills />
-        <Achievements />
-        <Qualifications />
-        {/* <Recommendations /> */}
-        <Contact />
+        <Suspense fallback={<LoadingSpinner />}>
+          <Home />
+          <About />
+          <Skills />
+          <Achievements />
+          <Qualifications />
+          <Contact />
+        </Suspense>
       </main>
 
+      <ScrollToTop />
     </>
   );
 };

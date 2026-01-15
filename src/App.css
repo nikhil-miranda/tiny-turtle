@@ -50,6 +50,21 @@
   --z-modal: 1000;
 }
 
+/* Dark Theme */
+body.dark-theme {
+  --title-color: hsl(var(--hue), var(--sat), 95%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+  --text-color: hsl(var(--hue), var(--sat), 75%);
+  --body-color: hsl(var(--hue), var(--sat), 12%);
+  --container-color: hsl(var(--hue), var(--sat), 16%);
+  --modal-color: hsl(var(--hue), var(--sat), 20%);
+}
+
+/* Smooth theme transition */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 /* Responsive Typography */
 @media screen and (max-width: 992px) {
   :root {

@@ -1,0 +1,11 @@
+.webp-image {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.webp-image__img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: inherit;
+}
