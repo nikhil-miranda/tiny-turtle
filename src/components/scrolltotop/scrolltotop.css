@@ -1,0 +1,73 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    z-index: var(--z-tooltip);
+    transition: all 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.scroll-to-top:hover {
+    background-color: var(--title-color-dark);
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top:focus {
+    outline: 2px solid var(--title-color);
+    outline-offset: 3px;
+}
+
+.scroll-to-top__icon {
+    font-size: 1.5rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .scroll-to-top {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 45px;
+        height: 45px;
+    }
+
+    .scroll-to-top__icon {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .scroll-to-top {
+        bottom: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .scroll-to-top__icon {
+        font-size: 1.1rem;
+    }
+}

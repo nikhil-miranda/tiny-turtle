@@ -30,24 +30,44 @@ const Qualification = () => {
                 </div>
 
                 <div className="qualification__sections">
-                
+
                     <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
-                            <div></div>
+                            <div>
+                                <h3 className="qualification__title__dark">
+                                    Engineering Lead
+                                </h3>
+                                <span className="qualification__subtitle">
+                                    Netcore Cloud Pvt Ltd
+                                </span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                    2024 - Present
+                                </div>
+                            </div>
                             <div>
                                 <span className="qualification__rounder__dark"></span>
                                 <span className="qualification__line"></span>
                             </div>
+                            <div></div>
+                        </div>
+
+                        <div className="qualification__data">
+                            <div></div>
                             <div>
-                                <h3 className="qualification__title__dark">
-                                    Senior Software Engineer
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification__title">
+                                    Senior Platform Engineer
                                 </h3>
                                 <span className="qualification__subtitle">
-                                    Unbxd by Netcore Cloud
+                                    Unbxd Search Inc
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                    2022 - Present
+                                    2022 - 2024
                                 </div>
                             </div>
                         </div>
@@ -55,10 +75,10 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">
-                                    Software Development Engineer
+                                    Software Engineer
                                 </h3>
                                 <span className="qualification__subtitle">
-                                    Unbxd by Netcore Cloud
+                                    Unbxd Search Inc
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
@@ -91,7 +111,7 @@ const Qualification = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
