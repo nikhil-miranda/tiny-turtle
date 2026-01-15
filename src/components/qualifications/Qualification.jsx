@@ -38,7 +38,7 @@ const Qualification = () => {
                                     Engineering Lead
                                 </h3>
                                 <span className="qualification__subtitle">
-                                    Netcore Cloud Pvt Ltd
+                                    Netcore Cloud Pvt Ltd, Bangalore
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
@@ -63,7 +63,7 @@ const Qualification = () => {
                                     Senior Platform Engineer
                                 </h3>
                                 <span className="qualification__subtitle">
-                                    Unbxd Search Inc
+                                    Unbxd Search Inc, Bangalore
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
@@ -78,7 +78,7 @@ const Qualification = () => {
                                     Software Engineer
                                 </h3>
                                 <span className="qualification__subtitle">
-                                    Unbxd Search Inc
+                                    Unbxd Search Inc, Bangalore
                                 </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
